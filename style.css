@@ -1,0 +1,109 @@
+html{
+    width: fit-content;
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Lucida Sans', sans-serif;
+}
+body{
+    display: block;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.top-container{
+    position:relative;
+    background-color: #D9EDBF;
+    margin-bottom: 0%;
+    padding-top: 100%;
+}
+.top-cloud {
+    position: absolute;
+    right:15%;
+    top:0px;    
+} 
+.bottom-cloud{
+    position: absolute;
+    left:20%;
+    bottom:20px;
+    margin:0;
+}   
+.Adam{
+    border-radius: 20%;
+    height:150px;
+    width:150px;
+}
+h1 {
+    color: black;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+h2 {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.middle-container{
+    background-color: #FF9800;
+    padding: 0%;
+    margin-top:0%;
+    margin-bottom: 0%;   
+}
+.plane{
+    border-radius: 20%;
+}
+.second-middle-container{
+    background-color: #2C7865;
+    padding: 0%;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.parent{
+    display:grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width:50%;
+    margin: 100px 150px 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.btn{
+    background: #FF9800;
+    background-image: linear-gradient(to bottom, #FF9800, hsl(36, 90%, 58%));
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.bottom-container {
+    background-color: #90D26D;
+    padding: 50px 0 20px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
